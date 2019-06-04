@@ -33,7 +33,7 @@ class Preprocessing:
         sentences = self.sent_tokenizer.tokenize(text)
         return sentences
 
-    def tokenize_words(self, text):
+    def tokenize_words(self, text):1
         tokens = nltk.tokenize.word_tokenize(text)
         return tokens
 
